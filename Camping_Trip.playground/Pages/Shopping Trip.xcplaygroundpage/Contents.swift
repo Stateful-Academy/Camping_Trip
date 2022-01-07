@@ -24,50 +24,30 @@
  ### Enter your code below
  */
 
-var budget = 1700.65
-var costOfTent = 865.72
 
-budget -= costOfTent
 
-print(budget)
 
-//MARK: - Functions
 
-func buyBackpacks(groupCount: Int, cost: Int) {
-    let totalCost = cost * groupCount
-    budget -= Double(totalCost)
-}
-print(budget)
 
-buyBackpacks(groupCount: 3, cost: 60)
 
-func buyFirewood(quantity: Int) {
-    let bundle = quantity / 10
-    let cost = bundle * 5
-    print(cost)
-    budget = budget - Double(cost)
-    print(budget)
-}
 
-buyFirewood(quantity: 40)
 
-func buyWaterBottles(count: Int) {
-    
-    let hydroFlaskCost = 35
-    let basicCost = 10
-    var totalCost = 0
-    if hydroFlaskCost * count <= Int(budget) {
-        totalCost = hydroFlaskCost * count
-        print("Yay! We are buying the fancy ones! It's will cost us $\(totalCost)")
-    } else {
-        totalCost = basicCost * count
-        print("Bummer! We are buying the basic ones. It's will cost us $\(totalCost)")
-    }
-    budget -= Double(totalCost)
-}
 
-buyWaterBottles(count: 5)
-print(budget)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*:
  ### Enter your code above

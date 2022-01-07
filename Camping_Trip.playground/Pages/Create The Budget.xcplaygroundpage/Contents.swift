@@ -20,29 +20,33 @@ import UIKit
  */
 
 
-var budget: Double = 1000.65
 
-let friendsMoney = 500 * 3
 
-budget += Double(friendsMoney)
-print(budget)
-budget -= 300
 
-print(budget)
 
-var roulette = 1...2
-var redOrBlack = roulette.randomElement()
 
-if redOrBlack == 1 {
-    print("\(String(describing: redOrBlack)) It was Black! We win!")
-    let gambling = 500 * 2
-    budget += Double(gambling)
-} else {
-    budget -= Double(500)
-    print("\(String(describing: redOrBlack)) It was Red! We lost!!")
-}
-print(redOrBlack!)
-print(budget)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*:

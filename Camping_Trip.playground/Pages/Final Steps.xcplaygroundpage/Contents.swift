@@ -34,72 +34,33 @@
  ### Enter your code below
  */
 
-let sunny = "Warm, and sunny. Good fishing"
-let forest = "Rainy, but with lots of trees"
-let snow = "High chance of snow, but amazing views"
-let desert = "High tempatures with no shade. The rocklimbing is top tier"
 
 
-var destination = sunny
-
-if destination == forest {
-    print("The Tree sound nice but I don't think we have rain gear")
-} else if destination == sunny {
-    print("This sound perfect! lets go here")
-} else  if destination == snow {
-    print("Woah! A bit cold don't you think?")
-} else if destination == desert {
-    print("I could go rock climbing! We will need more water though")
-} else {
-    print("Maybe we dont go anywhere...")
-}
 
 
-switch destination {
-case forest:
-    print("The Tree sound nice but I don't think we have rain gear")
-case snow:
-    print("Woah! A bit cold don't you think?")
-case desert:
-    print("I could go rock climbing! We will need more water though")
-case sunny:
-    print("This sound perfect! lets go here")
-default:
-    print("stay home")
-}
-//MARK: -  Loops
 
-// create an array of x and for in loop for price, or quality, or something
-var backpack: [String] = ["Tent", "Jacket", "Toothbrush","socks"]
 
-backpack.forEach({ item in
-    print("\(item)")
-})
 
-var distanceToCamp: Int = 20
 
-while distanceToCamp > 0 {
-    print("Are we there yet?")
-    distanceToCamp -= 5
-}
 
-func lookForItem(item:String) {
-    for currentItem in backpack {
-        if item == currentItem {
-            print("Nice! I found the \(item)")
-            break // We are done, lets leave
-        } else {
-            print("Keep looking.. I swear its in there")
-        }
-    }
-}
 
-lookForItem(item: "Tent")
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*:
  ### Enter your code above
  
- #Really Great Work!!
+ # Really Great Work!!
  */
 

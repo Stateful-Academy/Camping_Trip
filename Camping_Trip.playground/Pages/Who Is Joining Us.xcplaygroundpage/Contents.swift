@@ -29,25 +29,23 @@
  ### Enter your code below
  */
 
-let myFirstName = "Karl"
-let myLastName = "Pfister"
-var age = 34
-let birthday = "08-03-1987"
 
-let Yuri = "Yuri"
-let Gagarin = "Gagarin"
-var yurisAge = 34
-let yurisBirthday = "03-27-1968"
 
-let steve = "Steve"
-let jobs = "Jobs"
-var stevesAge = 56
-let stevesBirthday = "02-24-1955"
 
-let Woz = "Steve"
-let Wozniak = "Wozniack"
-var wozsAge = 72
-let wozsBirthday = "08-11-1950"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*:
