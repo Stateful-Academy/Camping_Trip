@@ -10,44 +10,46 @@
  
  
  # Camping Trip
-  In this project, you will use Swift to narrate taking your friends and family on a camping trip! We will use everything you’ve learned so far to accomplish this. We will use Variables and Constants to create our objects, Mathematical operators to keep track of our spending, Conditionals, functions, and loops to bring our trip to life! Let's start by defining who is joining us on this trip.
-  
-  
-  # Part One - Who is joining us?
-  
-  Experiences are best shared with others! Tell us about who you want to join you on this trip. We recommend at least two camping buddies
-  
-  * create a variable or a constant for your first name
-  * create a variable or a constant for your last name
-  * create a variable or a constant for your age
-  * create a variable or a constant for your birthday
-  * repeat for all the guests you want to bring
-    * Minimum Two
+ 
+ In this project, you will use Swift to narrate taking your friends and family on a camping trip! We will use everything you’ve learned so far to accomplish this. We will use `Variables` and `Constants` to create our objects, `Mathematical operators` to keep track of our spending, `conditionals`, `functions`, and `loops` to bring our trip to life! Let’s start by defining who is joining us on this trip.
+
+ ### Who is joining us?
+
+ Experiences are best shared with others! Tell us about who you want to join you on this trip. We recommend at least two camping buddies.
+
+ 1.  Create a `variable` or a `constant` for your first name
+     1. Choose the correct mutability
+ 2. Create a `variable` or a `constant` for your last name
+     1. Choose the correct mutability
+ 3. Create a `variable` or a `constant` for your age
+     1. Choose the correct mutability
+ 4. Create a `variable` or a `constant` for your birthday
+     1. Choose the correct mutability
+ 5. Repeat for all the guests you want to bring
+     1. Minimum of two guests
   
  */
 /*:
  ### Enter your code below
  */
 
-let myFirstName = "Karl"
-let myLastName = "Pfister"
-var age = 34
-let birthday = "08-03-1987"
 
-let Yuri = "Yuri"
-let Gagarin = "Gagarin"
-var yurisAge = 34
-let yurisBirthday = "03-27-1968"
 
-let steve = "Steve"
-let jobs = "Jobs"
-var stevesAge = 56
-let stevesBirthday = "02-24-1955"
 
-let Woz = "Steve"
-let Wozniak = "Wozniack"
-var wozsAge = 72
-let wozsBirthday = "08-11-1950"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*:
