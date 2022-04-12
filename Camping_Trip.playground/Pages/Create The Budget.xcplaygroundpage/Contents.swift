@@ -19,7 +19,17 @@ import UIKit
  ### Enter your code below
  */
 
+// Casino Time
+var isBlack = Bool.random()
+if isBlack {
+    print("It was Black! We win!")
+    // Update the budget
+} else {
+    print("It was Red! We lost!!")
+    // Update the budget
+}
 
+print(isBlack)
 
 
 
