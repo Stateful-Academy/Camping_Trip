@@ -81,7 +81,9 @@ The `Memory Maker 2022` camping trip is just about to make way! All we have left
 5. We finally know where we are going! Let’s do a final check on our equipment. Create a `backpack` array and assign a default value of four Strings. `“Tent”,“Jacket”, “Toothbrush”,”socks”`
 6. Let’s look at each item in the backpack to ensure we have it all. Write a `for-each` statement that prints each item in your backpack.
     1. You can use the documentation via this [link](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html) to learn more about `for-each` statement
-    - Hint: For-Each
+    
+<details>
+    <summary>Hint: For-Each</summary>
         
         ```swift
         let numberWords = ["one", "two", "three"]
@@ -97,6 +99,8 @@ The `Memory Maker 2022` camping trip is just about to make way! All we have left
         }
         // Same as above
         ```
+    
+</details>
         
 7.  Let’s repack that bag and get on our way! The camp spot is only `20` miles away now! Create a `variable` named `distanceToCamp` and set it to `20`
 8. Everyone is a bit tired from all the shopping and math, so some of your friends have decided to ask you if we are there yet every `5` miles. Write a while loop that will print `“Are we there yet?”` If the `distanceToCamp` is greater than `0`. 
